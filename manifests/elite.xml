@@ -45,6 +45,8 @@
   <project path="frameworks/base" name="frameworks_base" remote="elite" groups="elite" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="frameworks_native" remote="elite" groups="elite" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="elite" groups="elite" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
