@@ -51,6 +51,18 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="elite" groups="elite" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="elite" groups="elite" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="elite" groups="elite" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="elite" groups="elite" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="elite" groups="elite" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="elite" groups="elite" />
+  <remove-project name="platform/packages/apps/SnapdragonGallery" />
+  <project path="packages/apps/SnapdragonGallery" name="packages_apps_SnapdragonGallery" remote="elite" groups="elite" />
 
   <!-- External -->
   <remove-project name="platform/external/selinux" />
@@ -80,7 +92,7 @@
   <remove-project name="platform/vendor/qcom-opensource/fm" />
   <project path="vendor/qcom/opensource/fm" name="android_vendor_qcom-opensource_fm" remote="elite" groups="elite" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
-  <project path="vendor/qcom/opensource/commonsys/fm" name="android_vendor_qcom-opensource_fm-commonsys" remote="elite" groups="elite" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom-opensource_fm-commonsys" remote="elite" groups="elite" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="elite" groups="elite" />
 
