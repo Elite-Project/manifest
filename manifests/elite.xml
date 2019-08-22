@@ -68,6 +68,8 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="elite" groups="elite" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
   <project path="packages/apps/SnapdragonGallery" name="packages_apps_SnapdragonGallery" remote="elite" groups="elite" />
+  <remove-project name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="elite" groups="elite" />
 
   <!-- External -->
   <remove-project name="platform/external/selinux" />
