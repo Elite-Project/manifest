@@ -1,4 +1,4 @@
-# EliteOS Majesty #
+# EliteOS Quesito #
 
 ## Setting up your machine ##
 
@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/Elite-Project/manifest.git -b e9x
+$ repo init -u https://github.com/Elite-Project/manifest.git -b e10x
 ```
 
 ### Downloading the source tree ###
@@ -56,7 +56,7 @@ and their change histories.
 # The -j# option specifies the number of concurrent download threads to run.
 # 4 threads is a good number for most internet connections.
 # You may need to adjust this value if you have a particularly slow connection.
-$ repo sync --force-sync --no-clone-bundle --no-tag -j16
+$ repo sync --force-sync --no-clone-bundle --no-tags -j$(nproc --all) --optimized-fetch --prune --quiet
 ```
 
 
@@ -64,5 +64,5 @@ $ repo sync --force-sync --no-clone-bundle --no-tag -j16
 
 	. build/envsetup.sh
 	lunch elite_<devicecoddename>-userdebug
-	mka elite
+	mka bacon
 
